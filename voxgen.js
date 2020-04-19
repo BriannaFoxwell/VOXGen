@@ -7,6 +7,8 @@ function generateVOX() {
     path_dir = "vox/";
   } else if (document.getElementById("vox2/").checked) {
     path_dir = "vox2/";
+  } else if (document.getElementById("fvox/").checked) {
+    path_dir = "fvox/";
   }
 
   var ext = ".wav";
